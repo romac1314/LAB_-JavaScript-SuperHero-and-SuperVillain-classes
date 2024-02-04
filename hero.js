@@ -64,5 +64,5 @@ function selectionChanged() {
 
 	// Your code goes here
 	var winner = selectedHero.battle(selectedVillain) ? selectedHero.alias : selectedVillain.alias;
-	document.querySelector("winner").textContent = "Winner: "+ winner;
+	document.querySelector("#winner").textContent = "Winner: "+ winner;
 }
